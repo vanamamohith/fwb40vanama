@@ -5,3 +5,10 @@ block content
   p Index page content.
   Button(type='button' class='btn btn-secondary' onclick='update()' ) Press Me 
   div#target Display
+
+  script.
+    var client_count = 0;
+    function update(){
+      client_count +=1;
+      document.getElementById("target").innerHTML = "Value now " + client_count;
+    }

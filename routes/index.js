@@ -1,5 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var client_count = 0;
+
+function update()
+{
+  
+}
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

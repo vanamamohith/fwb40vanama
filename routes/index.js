@@ -4,7 +4,8 @@ var client_count = 0;
 
 function update()
 {
-  console.log(client_count);
+  client_count++;
+  document.getElementById("target").innerHTML="Value Now "+ client_count;
 }
 
 /* GET home page. */

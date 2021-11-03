@@ -4,7 +4,7 @@ var client_count = 0;
 
 function update()
 {
-  
+  console.log(client_count);
 }
 
 /* GET home page. */

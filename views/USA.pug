@@ -6,11 +6,11 @@ block content
   - let results;
   
   script.
-    function place(x){
-         alert('USA')
+    function buy(x){
+         alert('Purchase Item: '+x)
 
    } 
   div(class='container-fluid')
     div(class='row')
       each results, index in usa 
-        div(class='col-sm-2' onclick='place('+index+')') #{results}
+        div(class='col-sm-2' onclick='buy('+index+')') #{results}
